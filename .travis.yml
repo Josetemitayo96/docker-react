@@ -8,7 +8,6 @@ before_install:
 script:
   - docker run -e CI=true tayo/docker-react npm run testi
 
-#i love you so much
 
 
     
