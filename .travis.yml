@@ -6,7 +6,9 @@ before_install:
   - docker build -t tayo/docker-react .
 
 script:
-  - docker run -e CI=true tayo/docker-react npm run test 
+  - docker run -e CI=true tayo/docker-react npm run testi
+
+#i love you so much
 
 
     
